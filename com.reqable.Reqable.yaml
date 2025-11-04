@@ -18,7 +18,7 @@ finish-args:
   - --filesystem=home
 
 build-options:
-  cflags: '-std=c17 -D_GNU_SOURCE'
+  cflags: -std=c17 -D_GNU_SOURCE
 
 modules:
   - name: gtk-doc
@@ -41,7 +41,8 @@ modules:
     build-commands:
       - install -Dm755 reqable.sh $FLATPAK_DEST/bin/reqable
       - install -Dm644 com.reqable.Reqable.metainfo.xml -t $FLATPAK_DEST/share/metainfo
-      - bsdtar -O -xf reqable-app-linux-x86_64.deb data.* | bsdtar --no-same-owner -xf -
+      - bsdtar -O -xf reqable-app-linux-x86_64.deb data.* | bsdtar --no-same-owner
+        -xf -
       - mv usr/share/reqable $FLATPAK_DEST
       - install -Dm644 usr/share/applications/reqable.desktop $FLATPAK_DEST/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key=Exec --set-value="reqable %U" $FLATPAK_DEST/share/applications/${FLATPAK_ID}.desktop
@@ -60,8 +61,8 @@ modules:
 
       - type: file
         only-arches: [x86_64]
-        url: https://github.com/reqable/reqable-app/releases/download/2.33.12/reqable-app-linux-x86_64.deb
-        sha256: 2c21de254cd346397f961dcf5b281957445ddc0c49106953915ac8ff997e1a8e
+        url: https://github.com/reqable/reqable-app/releases/download/3.0.20/reqable-app-linux-x86_64.deb
+        sha256: beb63e488d62917911b18ee642efc54bce587b5a7b1040ead1504bf886712416
         x-checker-data:
           type: json
           url: https://api.github.com/repos/reqable/reqable-app/releases/latest

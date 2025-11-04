@@ -107,6 +107,9 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release version="3.0.20" date="2025-11-04">
+      <description></description>
+    </release>
     <release version="2.33.12" date="2025-04-23">
       <url>https://github.com/reqable/reqable-app/releases/latest</url>
     </release>
