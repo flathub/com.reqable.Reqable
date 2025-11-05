@@ -75,14 +75,14 @@
   <screenshots>
     <screenshot type="default">
       <caption>Multi-Protocol Traffic Analysis</caption>
-      <image>https://reqable.com/en-US/assets/images/feature_proxying_en-68bfc4aed53b3be50bde8b18193a3846.webp</image>
+      <image>https://reqable.com/en-US/assets/images/feature_proxying_en-a3b21f5d035ab74a1b8a3229b8a51dec.webp</image>
     </screenshot>
     <screenshot>
-      <image>	https://reqable.com/en-US/assets/images/feature_filters_en-fd07173588533e3c954f6bc4b137bdfb.webp</image>
+      <image>	https://reqable.com/en-US/assets/images/feature_filters_en-7ffd0a1ecb307988c7de49d01685116e.webp</image>
       <caption>Various Filters</caption>
     </screenshot>
     <screenshot>
-      <image>https://reqable.com/en-US/assets/images/feature_rest_en-c87a3490f9a9cd61009b1cc688640d04.webp</image>
+      <image>https://reqable.com/en-US/assets/images/feature_rest_en-d756761ab76c415e029c0747dd8fea39.webp</image>
       <caption>REST API Testing</caption>
     </screenshot>
     <screenshot>
@@ -94,11 +94,11 @@
       <caption>Rewrite, Breakpoint and Scripting</caption>
     </screenshot>
     <screenshot>
-      <image>https://reqable.com/en-US/assets/images/feature_theme_en-5975abf32ad8d49f5de98e761e0a467c.webp</image>
+      <image>https://reqable.com/en-US/assets/images/feature_theme_en-a000580fd7f8e4c89cfee4a184eceb24.webp</image>
       <caption>Make Your Own Cocktail</caption>
     </screenshot>
     <screenshot>
-      <image>https://reqable.com/en-US/assets/images/feature_collabrative_en-0ffdb06cc0c6a2e87ee48ee52aa2a4ef.webp</image>
+      <image>https://reqable.com/en-US/assets/images/feature_collabrative_en-e18b723e566724e6d479a181c79e1db1.webp</image>
       <caption>Desktop + Mobile Collaboration</caption>
     </screenshot>
   </screenshots>
