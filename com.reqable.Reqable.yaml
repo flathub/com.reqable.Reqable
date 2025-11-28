@@ -61,8 +61,8 @@ modules:
 
       - type: file
         only-arches: [x86_64]
-        url: https://github.com/reqable/reqable-app/releases/download/3.0.27/reqable-app-linux-x86_64.deb
-        sha256: 3e5e5e8c651aef854dc6ee77b7c19a2e5d5a8b00fb3cae54721eeca367f0f43a
+        url: https://github.com/reqable/reqable-app/releases/download/3.0.28/reqable-app-linux-x86_64.deb
+        sha256: 1c574b0367e283e129b066c8fe5c056acbaf56ab40a27ba6123b1dea39970f9e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/reqable/reqable-app/releases/latest
