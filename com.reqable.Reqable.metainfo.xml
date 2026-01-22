@@ -91,8 +91,11 @@
     <category>Network</category>
   </categories>
   <releases>
-    <release version="3.0.36" date="2026-01-20">
+    <release version="3.0.37" date="2026-01-22">
       <description></description>
+    </release>
+    <release version="3.0.36" date="2026-01-20">
+      <description/>
     </release>
     <release version="3.0.35" date="2026-01-19">
       <description/>
