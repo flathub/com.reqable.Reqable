@@ -14,6 +14,7 @@ finish-args:
   - --device=dri
   # System tray icon
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --own-name=com.reqable.linux
   # File system
   - --filesystem=home
 
